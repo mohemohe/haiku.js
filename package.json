@@ -1,0 +1,30 @@
+{
+  "name": "haikujs",
+  "description": "Haiku detector",
+  "version": "0.1.0",
+  "author": "mohemohe",
+  "dependencies": {
+    "@types/kuromoji": "^0.1.0",
+    "kuromoji": "^0.1.2",
+    "postinstall-build": "^5.0.3",
+    "typescript": "^3.0.3"
+  },
+  "devDependencies": {
+    "alsatian": "^2.3.0",
+    "source-map-support": "^0.5.9",
+    "tap-diff": "^0.1.1",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0"
+  },
+  "license": "MIT",
+  "main": "dist/src/index.js",
+  "repository": "git@github.com:mohemohe/haiku.js.git",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "postinstall-build dist",
+    "prepack": "rm -rf dist",
+    "test:build": "tsc --noEmit",
+    "test:unit": "ts-node test/Runner.ts",
+    "test": "yarn test:build && yarn test:unit"
+  }
+}
