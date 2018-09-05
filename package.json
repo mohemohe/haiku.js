@@ -1,7 +1,7 @@
 {
-  "name": "haikujs",
+  "name": "@mohemohe/haiku.js",
   "description": "Haiku detector",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "author": "mohemohe",
   "dependencies": {
     "@types/kuromoji": "^0.1.0",
@@ -26,5 +26,8 @@
     "test:build": "tsc --noEmit",
     "test:unit": "ts-node test/Runner.ts",
     "test": "yarn test:build && yarn test:unit"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

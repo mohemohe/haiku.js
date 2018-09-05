@@ -1,4 +1,4 @@
-# haiku.js (haikujs)
+# haiku.js (@mohemohe/haiku.js)
 
 Haiku detector for Node.js
 
