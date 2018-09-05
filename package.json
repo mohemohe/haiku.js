@@ -1,7 +1,7 @@
 {
   "name": "@mohemohe/haiku.js",
   "description": "Haiku detector",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "mohemohe",
   "dependencies": {
     "@types/kuromoji": "^0.1.0",
